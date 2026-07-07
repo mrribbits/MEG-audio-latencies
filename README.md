@@ -1,10 +1,12 @@
 # OPM-MEG Audio Latency Measurement
 
-Tools to measure and characterize the trigger-to-ear audio latency of an
+Tool to measure and characterize the trigger-to-ear audio latency of an
 OPM-MEG stimulus pipeline using a BBTK (Cambridge Research Systems Black
 Box ToolKit v3). Compares VPIXX hardware-scheduled audio to
 PsychoPy PTB software audio, across both pneumatic-tube earpieces and
 room loudspeakers.
+
+Also includes a demo script for those that want to use VPIXX to play audio.
 
 ## Contents
 
