@@ -35,13 +35,13 @@ room loudspeakers.
 
 ## Setup
 
-    VPIXX DOUT (Pixel Mode B) --> BBTK digital input channel 1  (pixel_trigger)
-    Microphone at earpiece    --> BBTK digital input channel 2  (mic)
+    VPIXX DOUT (Pixel Mode B) --> BBTK digital input 1  (pixel_trigger)
+    Microphone at earpiece    --> BBTK mic channel 1
 
 Audio source depends on `AUDIO_PATH`:
 
 - `AUDIO_PATH = 'vpixx'`    → VPIXX audio-out → SOUNDPixx amp → tubes / speakers
-- `AUDIO_PATH = 'psychopy'` → computer → DAC → FOSI amplifier → tubes / speakers
+- `AUDIO_PATH = 'psychopy'` → computer → DAC → amplifier → tubes / speakers
 
 
 ## Running a measurement session
